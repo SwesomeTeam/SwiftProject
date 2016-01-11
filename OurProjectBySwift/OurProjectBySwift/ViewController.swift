@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("周浦山")
+        
+        
         let userInfo = UserInfo();
         print(userInfo)
         // Do any additional setup after loading the view, typically from a nib.
