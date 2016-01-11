@@ -14,6 +14,7 @@
 		0E5E13F21C43459B00E01CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E13F01C43459B00E01CCE /* LaunchScreen.storyboard */; };
 		0E5E13FD1C43459B00E01CCE /* OurProjectBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13FC1C43459B00E01CCE /* OurProjectBySwiftTests.swift */; };
 		0E5E14081C43459C00E01CCE /* OurProjectBySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E14071C43459C00E01CCE /* OurProjectBySwiftUITests.swift */; };
+		0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8907801C437E6D0059EC45 /* UserInfo.m */; };
 		8E7040F714808605F91E5CDC /* Pods_OurProjectBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,9 @@
 		0E5E14031C43459B00E01CCE /* OurProjectBySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurProjectBySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5E14071C43459C00E01CCE /* OurProjectBySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurProjectBySwiftUITests.swift; sourceTree = "<group>"; };
 		0E5E14091C43459C00E01CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E89077E1C437E6C0059EC45 /* OurProjectBySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurProjectBySwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E89077F1C437E6D0059EC45 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		0E8907801C437E6D0059EC45 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		7D40F16FE3E2B8B247E68337 /* Pods-OurProjectBySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurProjectBySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurProjectBySwift/Pods-OurProjectBySwift.release.xcconfig"; sourceTree = "<group>"; };
 		806CA4FA3EF868CA595B6F78 /* Pods-OurProjectBySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurProjectBySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurProjectBySwift/Pods-OurProjectBySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurProjectBySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,9 @@
 				0E5E13EE1C43459B00E01CCE /* Assets.xcassets */,
 				0E5E13F01C43459B00E01CCE /* LaunchScreen.storyboard */,
 				0E5E13F31C43459B00E01CCE /* Info.plist */,
+				0E89077F1C437E6D0059EC45 /* UserInfo.h */,
+				0E8907801C437E6D0059EC45 /* UserInfo.m */,
+				0E89077E1C437E6C0059EC45 /* OurProjectBySwift-Bridging-Header.h */,
 			);
 			path = OurProjectBySwift;
 			sourceTree = "<group>";
@@ -332,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */,
+				0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */,
 				0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,10 +481,13 @@
 			baseConfigurationReference = 806CA4FA3EF868CA595B6F78 /* Pods-OurProjectBySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OurProjectBySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niuduz.OurProjectBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OurProjectBySwift/OurProjectBySwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -485,10 +496,12 @@
 			baseConfigurationReference = 7D40F16FE3E2B8B247E68337 /* Pods-OurProjectBySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = OurProjectBySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niuduz.OurProjectBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OurProjectBySwift/OurProjectBySwift-Bridging-Header.h";
 			};
 			name = Release;
 		};

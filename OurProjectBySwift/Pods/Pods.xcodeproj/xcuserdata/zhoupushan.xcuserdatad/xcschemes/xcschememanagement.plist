@@ -19,7 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-OurProjectBySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -31,6 +41,42 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>0BB3C9EB332FBA4E0AA05FCEF5495E17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>16550279DBFAEC58BD9E169EF04079A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>25E0F0AEF3D0FF9A663EBD748DD275FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E58053FFA77296BADDEC9FD0270CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C548E3FCA1CD8267C9E6D67AE8DB50E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B889735EA95F1A0832CC5A7E3C81047D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD07BF6E85420F9E3EB84563AF0DBE21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

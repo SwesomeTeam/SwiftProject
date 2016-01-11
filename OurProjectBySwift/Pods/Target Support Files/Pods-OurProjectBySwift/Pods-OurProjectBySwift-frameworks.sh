@@ -55,11 +55,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-OurProjectBySwift/Alamofire.framework'
   install_framework 'Pods-OurProjectBySwift/Kingfisher.framework'
   install_framework 'Pods-OurProjectBySwift/MBProgressHUD.framework'
+  install_framework 'Pods-OurProjectBySwift/MJRefresh.framework'
+  install_framework 'Pods-OurProjectBySwift/SnapKit.framework'
   install_framework 'Pods-OurProjectBySwift/SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-OurProjectBySwift/Alamofire.framework'
   install_framework 'Pods-OurProjectBySwift/Kingfisher.framework'
   install_framework 'Pods-OurProjectBySwift/MBProgressHUD.framework'
+  install_framework 'Pods-OurProjectBySwift/MJRefresh.framework'
+  install_framework 'Pods-OurProjectBySwift/SnapKit.framework'
   install_framework 'Pods-OurProjectBySwift/SwiftyJSON.framework'
 fi

@@ -7,6 +7,8 @@ pod 'Alamofire', '~> 3.1.4'
 pod 'Kingfisher', '~> 1.9'
 pod 'SwiftyJSON', '~> 2.3.2'
 pod 'MBProgressHUD', '~> 0.9.0'
+pod 'SnapKit', '~> 0.18.0'
+pod 'MJRefresh', '~> 3.1.0'
 end
 
 target 'OurProjectBySwiftTests' do
