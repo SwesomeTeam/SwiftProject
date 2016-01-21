@@ -11,6 +11,14 @@
 		0E090A941C4FD94200F15915 /* BaseNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A931C4FD94200F15915 /* BaseNaviController.swift */; };
 		0E090A981C4FDEC800F15915 /* PSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A971C4FDEC800F15915 /* PSColor.swift */; };
 		0E090A9B1C4FDFDD00F15915 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A9A1C4FDFDD00F15915 /* MainViewController.swift */; };
+		0E2C9D741C50725400E511FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C9D731C50725400E511FB /* HomeViewController.swift */; };
+		0E2C9D761C50726700E511FB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C9D751C50726700E511FB /* MessageViewController.swift */; };
+		0E2C9D781C50727600E511FB /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C9D771C50727600E511FB /* MyViewController.swift */; };
+		0E2C9D7A1C50728400E511FB /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2C9D791C50728400E511FB /* ProjectViewController.swift */; };
+		0E2C9D7C1C50742F00E511FB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C9D7B1C50742F00E511FB /* HomeViewController.xib */; };
+		0E2C9D7E1C50746F00E511FB /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C9D7D1C50746F00E511FB /* MessageViewController.xib */; };
+		0E2C9D801C50748F00E511FB /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C9D7F1C50748F00E511FB /* MyViewController.xib */; };
+		0E2C9D821C5074B200E511FB /* ProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2C9D811C5074B200E511FB /* ProjectViewController.xib */; };
 		0E443E4F1C489C6B001459D1 /* NetWorkingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E443E4E1C489C6B001459D1 /* NetWorkingUtil.swift */; };
 		0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13E71C43459B00E01CCE /* AppDelegate.swift */; };
 		0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13E91C43459B00E01CCE /* ViewController.swift */; };
@@ -49,6 +57,14 @@
 		0E090A931C4FD94200F15915 /* BaseNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNaviController.swift; sourceTree = "<group>"; };
 		0E090A971C4FDEC800F15915 /* PSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSColor.swift; sourceTree = "<group>"; };
 		0E090A9A1C4FDFDD00F15915 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0E2C9D731C50725400E511FB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0E2C9D751C50726700E511FB /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		0E2C9D771C50727600E511FB /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		0E2C9D791C50728400E511FB /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		0E2C9D7B1C50742F00E511FB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0E2C9D7D1C50746F00E511FB /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		0E2C9D7F1C50748F00E511FB /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		0E2C9D811C5074B200E511FB /* ProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectViewController.xib; sourceTree = "<group>"; };
 		0E443E4E1C489C6B001459D1 /* NetWorkingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkingUtil.swift; sourceTree = "<group>"; };
 		0E5E13E41C43459B00E01CCE /* OurProjectBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurProjectBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5E13E71C43459B00E01CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +125,138 @@
 			name = Color;
 			sourceTree = "<group>";
 		};
+		0E2C9D631C50722900E511FB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D641C50722900E511FB /* Controller */,
+				0E2C9D651C50722900E511FB /* Model */,
+				0E2C9D661C50722900E511FB /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E2C9D641C50722900E511FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D731C50725400E511FB /* HomeViewController.swift */,
+				0E2C9D7B1C50742F00E511FB /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2C9D651C50722900E511FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2C9D661C50722900E511FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E2C9D671C50722900E511FB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D681C50722900E511FB /* Controller */,
+				0E2C9D691C50722900E511FB /* Model */,
+				0E2C9D6A1C50722900E511FB /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0E2C9D681C50722900E511FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D751C50726700E511FB /* MessageViewController.swift */,
+				0E2C9D7D1C50746F00E511FB /* MessageViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2C9D691C50722900E511FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2C9D6A1C50722900E511FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E2C9D6B1C50722900E511FB /* My */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D6C1C50722900E511FB /* Controller */,
+				0E2C9D6D1C50722900E511FB /* Model */,
+				0E2C9D6E1C50722900E511FB /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		0E2C9D6C1C50722900E511FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D771C50727600E511FB /* MyViewController.swift */,
+				0E2C9D7F1C50748F00E511FB /* MyViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2C9D6D1C50722900E511FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2C9D6E1C50722900E511FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E2C9D6F1C50722900E511FB /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D701C50722900E511FB /* Controller */,
+				0E2C9D711C50722900E511FB /* Model */,
+				0E2C9D721C50722900E511FB /* View */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		0E2C9D701C50722900E511FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2C9D791C50728400E511FB /* ProjectViewController.swift */,
+				0E2C9D811C5074B200E511FB /* ProjectViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E2C9D711C50722900E511FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E2C9D721C50722900E511FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0E443E4C1C489C36001459D1 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +298,10 @@
 		0E5E13E61C43459B00E01CCE /* OurProjectBySwift */ = {
 			isa = PBXGroup;
 			children = (
+				0E2C9D631C50722900E511FB /* Home */,
+				0E2C9D671C50722900E511FB /* Message */,
+				0E2C9D6B1C50722900E511FB /* My */,
+				0E2C9D6F1C50722900E511FB /* Project */,
 				0E443E4C1C489C36001459D1 /* Util */,
 				0E723EC71C463B420096E8BB /* Common */,
 				0E5E13E71C43459B00E01CCE /* AppDelegate.swift */,
@@ -348,8 +500,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5E13F21C43459B00E01CCE /* LaunchScreen.storyboard in Resources */,
+				0E2C9D7E1C50746F00E511FB /* MessageViewController.xib in Resources */,
+				0E2C9D821C5074B200E511FB /* ProjectViewController.xib in Resources */,
+				0E2C9D801C50748F00E511FB /* MyViewController.xib in Resources */,
 				0E5E13EF1C43459B00E01CCE /* Assets.xcassets in Resources */,
 				0E5E13ED1C43459B00E01CCE /* Main.storyboard in Resources */,
+				0E2C9D7C1C50742F00E511FB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +598,12 @@
 				0E090A981C4FDEC800F15915 /* PSColor.swift in Sources */,
 				0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */,
 				0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */,
+				0E2C9D741C50725400E511FB /* HomeViewController.swift in Sources */,
 				0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */,
 				0E443E4F1C489C6B001459D1 /* NetWorkingUtil.swift in Sources */,
+				0E2C9D781C50727600E511FB /* MyViewController.swift in Sources */,
+				0E2C9D761C50726700E511FB /* MessageViewController.swift in Sources */,
+				0E2C9D7A1C50728400E511FB /* ProjectViewController.swift in Sources */,
 				0E090A9B1C4FDFDD00F15915 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

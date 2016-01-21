@@ -15,6 +15,18 @@ enum RefershState{
 
 class BaseViewController: UIViewController {
     
+    init() {
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?){
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     var hideNaviBar : Bool = false{
         willSet
         {
@@ -22,7 +34,7 @@ class BaseViewController: UIViewController {
         }
     }
     
-    var hideBottonBar = false{
+    var hideBottomBar = false{
         willSet{
             self.hidesBottomBarWhenPushed = newValue
         }
@@ -54,23 +66,24 @@ class BaseViewController: UIViewController {
 // MARK: - Life Circel
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        hideNaviBar = false
+        hideBottomBar = false
+        screenLayout = false
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        hideNaviBar = false
-        hideBottonBar = true
-        screenLayout = false
-    }
+//    required init?(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+
+//    }
     
 // MARK: - BarItem
     func backBarItem() -> PSBarButtonItem{
