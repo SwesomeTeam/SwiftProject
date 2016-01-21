@@ -16,11 +16,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppm-Fq-Ys9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Q5G-Nr-3h9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Q5G-Nr-3h9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Q5G-Nr-3h9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="gotoSystemSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tth-op-NAz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ppm-Fq-Ys9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="154" id="Ors-2K-p77"/>
+                            <constraint firstItem="Ppm-Fq-Ys9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="136" id="T6s-1L-ljC"/>
+                            <constraint firstAttribute="trailing" secondItem="Ppm-Fq-Ys9" secondAttribute="trailing" constant="153" id="sMI-gv-iw7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Ppm-Fq-Ys9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Ors-2K-p77"/>
+                                <exclude reference="T6s-1L-ljC"/>
+                                <exclude reference="sMI-gv-iw7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Ppm-Fq-Ys9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Ors-2K-p77"/>
+                                <include reference="T6s-1L-ljC"/>
+                                <include reference="sMI-gv-iw7"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="177" y="326.25"/>
         </scene>
     </scenes>
 </document>

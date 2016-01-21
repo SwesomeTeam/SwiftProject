@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E090A921C4F9E0B00F15915 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E090A911C4F9E0B00F15915 /* MJRefresh.framework */; };
+		0E090A941C4FD94200F15915 /* BaseNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A931C4FD94200F15915 /* BaseNaviController.swift */; };
+		0E090A981C4FDEC800F15915 /* PSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A971C4FDEC800F15915 /* PSColor.swift */; };
+		0E090A9B1C4FDFDD00F15915 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E090A9A1C4FDFDD00F15915 /* MainViewController.swift */; };
+		0E443E4F1C489C6B001459D1 /* NetWorkingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E443E4E1C489C6B001459D1 /* NetWorkingUtil.swift */; };
 		0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13E71C43459B00E01CCE /* AppDelegate.swift */; };
 		0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13E91C43459B00E01CCE /* ViewController.swift */; };
 		0E5E13ED1C43459B00E01CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E13EB1C43459B00E01CCE /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		0E5E13F21C43459B00E01CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5E13F01C43459B00E01CCE /* LaunchScreen.storyboard */; };
 		0E5E13FD1C43459B00E01CCE /* OurProjectBySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E13FC1C43459B00E01CCE /* OurProjectBySwiftTests.swift */; };
 		0E5E14081C43459C00E01CCE /* OurProjectBySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5E14071C43459C00E01CCE /* OurProjectBySwiftUITests.swift */; };
+		0E6381101C4F735B00D471D0 /* PSBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E63810F1C4F735A00D471D0 /* PSBarButtonItem.swift */; };
+		0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED11C464FA90096E8BB /* BaseView.swift */; };
+		0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED31C4650560096E8BB /* BaseViewController.swift */; };
 		0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8907801C437E6D0059EC45 /* UserInfo.m */; };
 		8E7040F714808605F91E5CDC /* Pods_OurProjectBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -36,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E090A8F1C4F95F300F15915 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = "Pods/../build/Debug-iphoneos/MJRefresh.framework"; sourceTree = "<group>"; };
+		0E090A911C4F9E0B00F15915 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = "Pods/../build/Release-iphoneos/MJRefresh.framework"; sourceTree = "<group>"; };
+		0E090A931C4FD94200F15915 /* BaseNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNaviController.swift; sourceTree = "<group>"; };
+		0E090A971C4FDEC800F15915 /* PSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSColor.swift; sourceTree = "<group>"; };
+		0E090A9A1C4FDFDD00F15915 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0E443E4E1C489C6B001459D1 /* NetWorkingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkingUtil.swift; sourceTree = "<group>"; };
 		0E5E13E41C43459B00E01CCE /* OurProjectBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurProjectBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5E13E71C43459B00E01CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E5E13E91C43459B00E01CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,9 @@
 		0E5E14031C43459B00E01CCE /* OurProjectBySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurProjectBySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5E14071C43459C00E01CCE /* OurProjectBySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurProjectBySwiftUITests.swift; sourceTree = "<group>"; };
 		0E5E14091C43459C00E01CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E63810F1C4F735A00D471D0 /* PSBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSBarButtonItem.swift; sourceTree = "<group>"; };
+		0E723ED11C464FA90096E8BB /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0E723ED31C4650560096E8BB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0E89077E1C437E6C0059EC45 /* OurProjectBySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurProjectBySwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E89077F1C437E6D0059EC45 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		0E8907801C437E6D0059EC45 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
@@ -62,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E090A921C4F9E0B00F15915 /* MJRefresh.framework in Frameworks */,
 				8E7040F714808605F91E5CDC /* Pods_OurProjectBySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +101,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E090A991C4FDF2700F15915 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				0E090A971C4FDEC800F15915 /* PSColor.swift */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		0E443E4C1C489C36001459D1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0E443E4D1C489C36001459D1 /* NetWorking */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0E443E4D1C489C36001459D1 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				0E443E4E1C489C6B001459D1 /* NetWorkingUtil.swift */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
 		0E5E13DB1C43459B00E01CCE = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +150,8 @@
 		0E5E13E61C43459B00E01CCE /* OurProjectBySwift */ = {
 			isa = PBXGroup;
 			children = (
+				0E443E4C1C489C36001459D1 /* Util */,
+				0E723EC71C463B420096E8BB /* Common */,
 				0E5E13E71C43459B00E01CCE /* AppDelegate.swift */,
 				0E5E13E91C43459B00E01CCE /* ViewController.swift */,
 				0E5E13EB1C43459B00E01CCE /* Main.storyboard */,
@@ -139,9 +183,48 @@
 			path = OurProjectBySwiftUITests;
 			sourceTree = "<group>";
 		};
+		0E723EC71C463B420096E8BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0E090A991C4FDF2700F15915 /* Color */,
+				0E723EC81C463B420096E8BB /* Controller */,
+				0E723EC91C463B420096E8BB /* Model */,
+				0E723ECA1C463B420096E8BB /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0E723EC81C463B420096E8BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E723ED11C464FA90096E8BB /* BaseView.swift */,
+				0E723ED31C4650560096E8BB /* BaseViewController.swift */,
+				0E090A931C4FD94200F15915 /* BaseNaviController.swift */,
+				0E090A9A1C4FDFDD00F15915 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E723EC91C463B420096E8BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E723ECA1C463B420096E8BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E63810F1C4F735A00D471D0 /* PSBarButtonItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		22CBEAE30B704716F260C58A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E090A911C4F9E0B00F15915 /* MJRefresh.framework */,
+				0E090A8F1C4F95F300F15915 /* MJRefresh.framework */,
 				B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */,
 			);
 			name = Frameworks;
@@ -169,6 +252,7 @@
 				0E5E13E21C43459B00E01CCE /* Resources */,
 				1BE99F8DBC2AAFE5A0D6ADEF /* Embed Pods Frameworks */,
 				FFF48E88EB9A680AF39CDDBC /* Copy Pods Resources */,
+				0E6381111C4F7D2F00D471D0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -286,6 +370,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E6381111C4F7D2F00D471D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
 		1BE99F8DBC2AAFE5A0D6ADEF /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,9 +435,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E090A941C4FD94200F15915 /* BaseNaviController.swift in Sources */,
+				0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */,
 				0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */,
+				0E6381101C4F735B00D471D0 /* PSBarButtonItem.swift in Sources */,
+				0E090A981C4FDEC800F15915 /* PSColor.swift in Sources */,
+				0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */,
 				0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */,
 				0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */,
+				0E443E4F1C489C6B001459D1 /* NetWorkingUtil.swift in Sources */,
+				0E090A9B1C4FDFDD00F15915 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +586,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = Our;
 				INFOPLIST_FILE = OurProjectBySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niuduz.OurProjectBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,7 +605,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = Our;
 				INFOPLIST_FILE = OurProjectBySwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niuduz.OurProjectBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";

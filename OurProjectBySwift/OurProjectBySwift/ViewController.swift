@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("周浦山")
-        let userInfo = UserInfo();
-        print(userInfo)
+
+//        let ref = 
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -22,7 +22,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+// MARK: - this is a title
+    @IBAction func gotoSystemSetting(sender: UIButton) {
+        let application = UIApplication.sharedApplication()
+        
+        application.openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
+        
+    }
 
 }
 
