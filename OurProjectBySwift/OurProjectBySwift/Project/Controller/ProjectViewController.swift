@@ -12,14 +12,10 @@ class ProjectViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "项目"
+        let segmentedControl = UISegmentedControl(items: ["回报众筹","股权众筹"])
+        segmentedControl.frame.size.width = 200
+        navigationItem.titleView = segmentedControl
     }
-    
-    
-    
-    
-    
-    
     
     
 }
