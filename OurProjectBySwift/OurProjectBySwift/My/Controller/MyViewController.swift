@@ -81,6 +81,7 @@ class MyViewController: BaseViewController,UITableViewDelegate,UITableViewDataSo
         if indexPath.section == 0{
             if indexPath.row == 0{
                 let fundManageVC = FundManageViewController()
+                fundManageVC.hideBottomBar = true
                 self.navigationController?.pushViewController(fundManageVC, animated: true)
             }else if indexPath.row == 1{
                 let bankManageVC = BankManageViewController()
@@ -102,10 +103,4 @@ class MyViewController: BaseViewController,UITableViewDelegate,UITableViewDataSo
             }
         }
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }

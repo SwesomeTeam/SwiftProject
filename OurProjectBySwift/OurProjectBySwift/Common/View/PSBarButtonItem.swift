@@ -14,6 +14,7 @@ class PSBarButtonItem: UIBarButtonItem {
     convenience init(back_normalImageName:String, hightImageName:String?, target:AnyObject, action:Selector){
         let backView = UIButton(type: .Custom)
         backView.backgroundColor = UIColor.clearColor()
+        print("\(UIImage(named: "nav_back_normal"))")
         backView.setImage(UIImage(named: "nav_back_normal"), forState: .Normal)
         backView.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 30)
         backView.frame = CGRectMake(0, 0, 44, 44)

@@ -66,8 +66,8 @@ class BaseViewController: UIViewController {
 // MARK: - Life Circel
     override func viewDidLoad() {
         super.viewDidLoad()
-        hideNaviBar = false
-        hideBottomBar = false
+//        hideNaviBar = false
+//        hideBottomBar = false
         screenLayout = false
     }
 
@@ -80,16 +80,14 @@ class BaseViewController: UIViewController {
         return .LightContent
     }
 
-//    required init?(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
 
-//    }
     
 // MARK: - BarItem
     func backBarItem() -> PSBarButtonItem{
         
-        let backItme = PSBarButtonItem(back_normalImageName: "", hightImageName: "", target: self, action: "backAction")
-        navigationController?.navigationItem.leftBarButtonItem = backItme
+        let backItme = PSBarButtonItem(back_normalImageName: "nav_back_normal", hightImageName: "", target: self, action: "backAction")
+//        PrintLog.printLog(self.navigationController)
+        self.navigationItem.leftBarButtonItem = backItme
         return backItme
     }
     
