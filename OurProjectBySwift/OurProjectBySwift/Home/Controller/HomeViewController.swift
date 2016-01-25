@@ -14,6 +14,7 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()
         navigationItem.title = "首页"
         // Do any additional setup after loading the view.
+        PrintLog.printLog("hahaha")
     }
 
     override func didReceiveMemoryWarning() {
