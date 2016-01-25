@@ -31,6 +31,20 @@
 		0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED11C464FA90096E8BB /* BaseView.swift */; };
 		0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED31C4650560096E8BB /* BaseViewController.swift */; };
 		0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8907801C437E6D0059EC45 /* UserInfo.m */; };
+		2D3C216B1C55C075005629DF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21691C55C075005629DF /* MyTableViewCell.swift */; };
+		2D3C216C1C55C075005629DF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C216A1C55C075005629DF /* MyTableViewCell.xib */; };
+		2D3C21701C55EC71005629DF /* FundManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C216E1C55EC71005629DF /* FundManageViewController.swift */; };
+		2D3C21711C55EC71005629DF /* FundManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C216F1C55EC71005629DF /* FundManageViewController.xib */; };
+		2D3C21751C55F878005629DF /* BankManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21731C55F878005629DF /* BankManageViewController.swift */; };
+		2D3C21761C55F878005629DF /* BankManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C21741C55F878005629DF /* BankManageViewController.xib */; };
+		2D3C217A1C55F898005629DF /* StartProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21781C55F898005629DF /* StartProjectViewController.swift */; };
+		2D3C217B1C55F898005629DF /* StartProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C21791C55F898005629DF /* StartProjectViewController.xib */; };
+		2D3C217F1C55F8B3005629DF /* MyInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C217D1C55F8B3005629DF /* MyInvestViewController.swift */; };
+		2D3C21801C55F8B3005629DF /* MyInvestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C217E1C55F8B3005629DF /* MyInvestViewController.xib */; };
+		2D3C21841C55F8DD005629DF /* MyAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21821C55F8DD005629DF /* MyAttentionViewController.swift */; };
+		2D3C21851C55F8DD005629DF /* MyAttentionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C21831C55F8DD005629DF /* MyAttentionViewController.xib */; };
+		2D3C21891C55F907005629DF /* MyChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21871C55F907005629DF /* MyChatViewController.swift */; };
+		2D3C218A1C55F907005629DF /* MyChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C21881C55F907005629DF /* MyChatViewController.xib */; };
 		8E7040F714808605F91E5CDC /* Pods_OurProjectBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -85,6 +99,20 @@
 		0E89077E1C437E6C0059EC45 /* OurProjectBySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurProjectBySwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E89077F1C437E6D0059EC45 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		0E8907801C437E6D0059EC45 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		2D3C21691C55C075005629DF /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewCell.swift; path = OurProjectBySwift/My/Controller/MyTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		2D3C216A1C55C075005629DF /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell.xib; path = OurProjectBySwift/My/Controller/MyTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		2D3C216E1C55EC71005629DF /* FundManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundManageViewController.swift; sourceTree = "<group>"; };
+		2D3C216F1C55EC71005629DF /* FundManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FundManageViewController.xib; sourceTree = "<group>"; };
+		2D3C21731C55F878005629DF /* BankManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankManageViewController.swift; sourceTree = "<group>"; };
+		2D3C21741C55F878005629DF /* BankManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankManageViewController.xib; sourceTree = "<group>"; };
+		2D3C21781C55F898005629DF /* StartProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartProjectViewController.swift; sourceTree = "<group>"; };
+		2D3C21791C55F898005629DF /* StartProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartProjectViewController.xib; sourceTree = "<group>"; };
+		2D3C217D1C55F8B3005629DF /* MyInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInvestViewController.swift; sourceTree = "<group>"; };
+		2D3C217E1C55F8B3005629DF /* MyInvestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyInvestViewController.xib; sourceTree = "<group>"; };
+		2D3C21821C55F8DD005629DF /* MyAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAttentionViewController.swift; sourceTree = "<group>"; };
+		2D3C21831C55F8DD005629DF /* MyAttentionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAttentionViewController.xib; sourceTree = "<group>"; };
+		2D3C21871C55F907005629DF /* MyChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyChatViewController.swift; sourceTree = "<group>"; };
+		2D3C21881C55F907005629DF /* MyChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyChatViewController.xib; sourceTree = "<group>"; };
 		7D40F16FE3E2B8B247E68337 /* Pods-OurProjectBySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurProjectBySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurProjectBySwift/Pods-OurProjectBySwift.release.xcconfig"; sourceTree = "<group>"; };
 		806CA4FA3EF868CA595B6F78 /* Pods-OurProjectBySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurProjectBySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurProjectBySwift/Pods-OurProjectBySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B624FF685D935F9CF1965864 /* Pods_OurProjectBySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurProjectBySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +232,12 @@
 		0E2C9D6C1C50722900E511FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2D3C21861C55F8F5005629DF /* MyChat */,
+				2D3C21811C55F8B9005629DF /* MyAttention */,
+				2D3C217C1C55F89E005629DF /* MyInvest */,
+				2D3C21771C55F87E005629DF /* StartProject */,
+				2D3C21721C55F6DD005629DF /* BankManage */,
+				2D3C216D1C55EBFC005629DF /* FundManage */,
 				0E2C9D771C50727600E511FB /* MyViewController.swift */,
 				0E2C9D7F1C50748F00E511FB /* MyViewController.xib */,
 			);
@@ -220,6 +254,8 @@
 		0E2C9D6E1C50722900E511FB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2D3C21691C55C075005629DF /* MyTableViewCell.swift */,
+				2D3C216A1C55C075005629DF /* MyTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -382,6 +418,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D3C216D1C55EBFC005629DF /* FundManage */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C216E1C55EC71005629DF /* FundManageViewController.swift */,
+				2D3C216F1C55EC71005629DF /* FundManageViewController.xib */,
+			);
+			name = FundManage;
+			sourceTree = "<group>";
+		};
+		2D3C21721C55F6DD005629DF /* BankManage */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C21731C55F878005629DF /* BankManageViewController.swift */,
+				2D3C21741C55F878005629DF /* BankManageViewController.xib */,
+			);
+			name = BankManage;
+			sourceTree = "<group>";
+		};
+		2D3C21771C55F87E005629DF /* StartProject */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C21781C55F898005629DF /* StartProjectViewController.swift */,
+				2D3C21791C55F898005629DF /* StartProjectViewController.xib */,
+			);
+			name = StartProject;
+			sourceTree = "<group>";
+		};
+		2D3C217C1C55F89E005629DF /* MyInvest */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C217D1C55F8B3005629DF /* MyInvestViewController.swift */,
+				2D3C217E1C55F8B3005629DF /* MyInvestViewController.xib */,
+			);
+			name = MyInvest;
+			sourceTree = "<group>";
+		};
+		2D3C21811C55F8B9005629DF /* MyAttention */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C21821C55F8DD005629DF /* MyAttentionViewController.swift */,
+				2D3C21831C55F8DD005629DF /* MyAttentionViewController.xib */,
+			);
+			name = MyAttention;
+			sourceTree = "<group>";
+		};
+		2D3C21861C55F8F5005629DF /* MyChat */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C21871C55F907005629DF /* MyChatViewController.swift */,
+				2D3C21881C55F907005629DF /* MyChatViewController.xib */,
+			);
+			name = MyChat;
+			sourceTree = "<group>";
+		};
 		ADFDD05A5B49B8004CE53449 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,10 +590,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5E13F21C43459B00E01CCE /* LaunchScreen.storyboard in Resources */,
+				2D3C21801C55F8B3005629DF /* MyInvestViewController.xib in Resources */,
+				2D3C21761C55F878005629DF /* BankManageViewController.xib in Resources */,
 				0E2C9D7E1C50746F00E511FB /* MessageViewController.xib in Resources */,
+				2D3C217B1C55F898005629DF /* StartProjectViewController.xib in Resources */,
+				2D3C21711C55EC71005629DF /* FundManageViewController.xib in Resources */,
+				2D3C21851C55F8DD005629DF /* MyAttentionViewController.xib in Resources */,
 				0E2C9D821C5074B200E511FB /* ProjectViewController.xib in Resources */,
+				2D3C218A1C55F907005629DF /* MyChatViewController.xib in Resources */,
 				0E2C9D801C50748F00E511FB /* MyViewController.xib in Resources */,
 				0E5E13EF1C43459B00E01CCE /* Assets.xcassets in Resources */,
+				2D3C216C1C55C075005629DF /* MyTableViewCell.xib in Resources */,
 				0E5E13ED1C43459B00E01CCE /* Main.storyboard in Resources */,
 				0E2C9D7C1C50742F00E511FB /* HomeViewController.xib in Resources */,
 			);
@@ -591,6 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3C217F1C55F8B3005629DF /* MyInvestViewController.swift in Sources */,
 				0E090A941C4FD94200F15915 /* BaseNaviController.swift in Sources */,
 				0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */,
 				0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */,
@@ -599,11 +697,17 @@
 				0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */,
 				0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */,
 				0E2C9D741C50725400E511FB /* HomeViewController.swift in Sources */,
+				2D3C216B1C55C075005629DF /* MyTableViewCell.swift in Sources */,
+				2D3C21891C55F907005629DF /* MyChatViewController.swift in Sources */,
 				0E5E13E81C43459B00E01CCE /* AppDelegate.swift in Sources */,
 				0E443E4F1C489C6B001459D1 /* NetWorkingUtil.swift in Sources */,
 				0E2C9D781C50727600E511FB /* MyViewController.swift in Sources */,
+				2D3C21841C55F8DD005629DF /* MyAttentionViewController.swift in Sources */,
 				0E2C9D761C50726700E511FB /* MessageViewController.swift in Sources */,
 				0E2C9D7A1C50728400E511FB /* ProjectViewController.swift in Sources */,
+				2D3C21751C55F878005629DF /* BankManageViewController.swift in Sources */,
+				2D3C21701C55EC71005629DF /* FundManageViewController.swift in Sources */,
+				2D3C217A1C55F898005629DF /* StartProjectViewController.swift in Sources */,
 				0E090A9B1C4FDFDD00F15915 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
