@@ -58,7 +58,7 @@ class BaseViewController: UIViewController {
     }
     
     var httpUtil : NetWorkingUtil{
-        return NetWorkingUtil.shareNetWorking
+        return NetWorkingUtil.sharedInstance
     }
     
     var refershState : RefershState = .RefershDown

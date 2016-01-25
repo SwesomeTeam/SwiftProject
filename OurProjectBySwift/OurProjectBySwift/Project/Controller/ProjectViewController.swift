@@ -16,6 +16,4 @@ class ProjectViewController: BaseViewController {
         segmentedControl.frame.size.width = 200
         navigationItem.titleView = segmentedControl
     }
-    
-    
 }

@@ -115,7 +115,7 @@ public class Request {
 
         - returns: The request.
     */
-    public func progress(closure: ((Int64, Int64, Int64) -> Void)? = nil) -> Self {
+    public func progress(closure: ((Int64, Int64, Int64) -> Void)? = nil) -> Self{
         if let uploadDelegate = delegate as? UploadTaskDelegate {
             uploadDelegate.uploadProgress = closure
         } else if let dataDelegate = delegate as? DataTaskDelegate {

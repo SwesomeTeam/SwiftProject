@@ -16,6 +16,7 @@ class BaseNaviController: UINavigationController {
         navigationBar.barStyle = .Black
         navigationBar.tintColor = UIColor.whiteColor()
         navigationBar.titleTextAttributes = [NSFontAttributeName:UIFont.systemFontOfSize(18)]
+
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {

@@ -127,7 +127,7 @@ public class Manager {
 
         commonInit(serverTrustPolicyManager: serverTrustPolicyManager)
     }
-
+    
     /**
         Initializes the `Manager` instance with the specified session, delegate and server trust policy.
 
