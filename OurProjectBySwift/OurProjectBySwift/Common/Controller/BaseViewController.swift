@@ -34,7 +34,7 @@ class BaseViewController: UIViewController {
         }
     }
     
-    var hideBottomBar = false{
+    var hideBottomBar : Bool = false{
         willSet{
             self.hidesBottomBarWhenPushed = newValue
         }

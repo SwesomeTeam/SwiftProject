@@ -48,6 +48,7 @@ class MyViewController: BaseViewController,UITableViewDelegate,UITableViewDataSo
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell : MyTableViewCell = tableView.dequeueReusableCellWithIdentifier("MyTableViewCell", forIndexPath: indexPath) as! MyTableViewCell
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
         if indexPath.section == 0{
             if indexPath.row == 0{
                 cell.myImageView?.image = UIImage(named: "myAccount")

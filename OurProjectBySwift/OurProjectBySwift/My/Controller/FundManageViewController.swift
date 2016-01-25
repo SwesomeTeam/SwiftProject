@@ -12,9 +12,11 @@ class FundManageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.backBarItem()
+        
         navigationItem.title = "资金管理"
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
