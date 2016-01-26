@@ -32,6 +32,10 @@
 		0E723ED21C464FA90096E8BB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED11C464FA90096E8BB /* BaseView.swift */; };
 		0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E723ED31C4650560096E8BB /* BaseViewController.swift */; };
 		0E8907811C437E6D0059EC45 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8907801C437E6D0059EC45 /* UserInfo.m */; };
+		2D37D0B81C57083100B8BACD /* PersonSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D37D0B61C57083100B8BACD /* PersonSetViewController.swift */; };
+		2D37D0B91C57083100B8BACD /* PersonSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D37D0B71C57083100B8BACD /* PersonSetViewController.xib */; };
+		2D37D0BD1C570C4400B8BACD /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D37D0BB1C570C4400B8BACD /* SetupViewController.swift */; };
+		2D37D0BE1C570C4400B8BACD /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D37D0BC1C570C4400B8BACD /* SetupViewController.xib */; };
 		2D3C216B1C55C075005629DF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C21691C55C075005629DF /* MyTableViewCell.swift */; };
 		2D3C216C1C55C075005629DF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C216A1C55C075005629DF /* MyTableViewCell.xib */; };
 		2D3C21701C55EC71005629DF /* FundManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C216E1C55EC71005629DF /* FundManageViewController.swift */; };
@@ -101,6 +105,10 @@
 		0E89077E1C437E6C0059EC45 /* OurProjectBySwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurProjectBySwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E89077F1C437E6D0059EC45 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		0E8907801C437E6D0059EC45 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		2D37D0B61C57083100B8BACD /* PersonSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonSetViewController.swift; sourceTree = "<group>"; };
+		2D37D0B71C57083100B8BACD /* PersonSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonSetViewController.xib; sourceTree = "<group>"; };
+		2D37D0BB1C570C4400B8BACD /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		2D37D0BC1C570C4400B8BACD /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
 		2D3C21691C55C075005629DF /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewCell.swift; path = OurProjectBySwift/My/Controller/MyTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		2D3C216A1C55C075005629DF /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell.xib; path = OurProjectBySwift/My/Controller/MyTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		2D3C216E1C55EC71005629DF /* FundManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundManageViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +242,8 @@
 		0E2C9D6C1C50722900E511FB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2D37D0BA1C570C2E00B8BACD /* Set */,
+				2D37D0B51C57080600B8BACD /* PersonSet */,
 				2D3C21861C55F8F5005629DF /* MyChat */,
 				2D3C21811C55F8B9005629DF /* MyAttention */,
 				2D3C217C1C55F89E005629DF /* MyInvest */,
@@ -429,6 +439,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2D37D0B51C57080600B8BACD /* PersonSet */ = {
+			isa = PBXGroup;
+			children = (
+				2D37D0B61C57083100B8BACD /* PersonSetViewController.swift */,
+				2D37D0B71C57083100B8BACD /* PersonSetViewController.xib */,
+			);
+			name = PersonSet;
+			sourceTree = "<group>";
+		};
+		2D37D0BA1C570C2E00B8BACD /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				2D37D0BB1C570C4400B8BACD /* SetupViewController.swift */,
+				2D37D0BC1C570C4400B8BACD /* SetupViewController.xib */,
+			);
+			name = Set;
+			sourceTree = "<group>";
+		};
 		2D3C216D1C55EBFC005629DF /* FundManage */ = {
 			isa = PBXGroup;
 			children = (
@@ -600,6 +628,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D37D0B91C57083100B8BACD /* PersonSetViewController.xib in Resources */,
 				0E5E13F21C43459B00E01CCE /* LaunchScreen.storyboard in Resources */,
 				2D3C21801C55F8B3005629DF /* MyInvestViewController.xib in Resources */,
 				2D3C21761C55F878005629DF /* BankManageViewController.xib in Resources */,
@@ -607,6 +636,7 @@
 				2D3C217B1C55F898005629DF /* StartProjectViewController.xib in Resources */,
 				2D3C21711C55EC71005629DF /* FundManageViewController.xib in Resources */,
 				2D3C21851C55F8DD005629DF /* MyAttentionViewController.xib in Resources */,
+				2D37D0BE1C570C4400B8BACD /* SetupViewController.xib in Resources */,
 				0E2C9D821C5074B200E511FB /* ProjectViewController.xib in Resources */,
 				2D3C218A1C55F907005629DF /* MyChatViewController.xib in Resources */,
 				0E2C9D801C50748F00E511FB /* MyViewController.xib in Resources */,
@@ -699,9 +729,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D37D0B81C57083100B8BACD /* PersonSetViewController.swift in Sources */,
 				2D3C217F1C55F8B3005629DF /* MyInvestViewController.swift in Sources */,
 				0E090A941C4FD94200F15915 /* BaseNaviController.swift in Sources */,
 				0E723ED41C4650560096E8BB /* BaseViewController.swift in Sources */,
+				2D37D0BD1C570C4400B8BACD /* SetupViewController.swift in Sources */,
 				0E5E13EA1C43459B00E01CCE /* ViewController.swift in Sources */,
 				0E6381101C4F735B00D471D0 /* PSBarButtonItem.swift in Sources */,
 				0E2C9D851C50C78200E511FB /* PrintLog.swift in Sources */,

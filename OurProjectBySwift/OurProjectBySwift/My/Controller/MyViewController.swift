@@ -14,14 +14,39 @@ class MyViewController: BaseViewController,UITableViewDelegate,UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "我的"
-        
+    
         setTableViewInfo()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        setNaviInfo()
+    }
+    
+    func setNaviInfo(){
+        self.setupItemWithImageName("my_set", selectImageName: "", hightImageName: "", action: "setUpClick", leftOrRight: false)
     }
     
     func setTableViewInfo(){
         myTableView.tableHeaderView = tableViewHeader
+        
+        let tapGR = UITapGestureRecognizer(target: self, action: "tapClick:")
+        tableViewHeader.addGestureRecognizer(tapGR)
+        
         myTableView.tableFooterView = UIView(frame: CGRectMake(0, 0, myTableView.frame.size.width, 0))
         myTableView!.registerNib(UINib(nibName: "MyTableViewCell", bundle:nil), forCellReuseIdentifier: "MyTableViewCell")
+    }
+    
+    func setUpClick(){
+        let setupVC = SetupViewController()
+        setupVC.hideBottomBar = true
+        self.navigationController?.pushViewController(setupVC, animated: true)
+    }
+    
+    func tapClick(sender:UITapGestureRecognizer){
+        let personSetVC = PersonSetViewController()
+        personSetVC.hideBottomBar = true
+        self.navigationController?.pushViewController(personSetVC, animated: true)
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -85,20 +110,25 @@ class MyViewController: BaseViewController,UITableViewDelegate,UITableViewDataSo
                 self.navigationController?.pushViewController(fundManageVC, animated: true)
             }else if indexPath.row == 1{
                 let bankManageVC = BankManageViewController()
+                bankManageVC.hideBottomBar = true
                 self.navigationController?.pushViewController(bankManageVC, animated: true)
             }
         }else if indexPath.section == 1{
             if indexPath.row == 0{
                 let startProjectVC = StartProjectViewController()
+                startProjectVC.hideBottomBar = true
                 self.navigationController?.pushViewController(startProjectVC, animated: true)
             }else if indexPath.row == 1{
                 let myInvestVC = MyInvestViewController()
+                myInvestVC.hideBottomBar = true
                 self.navigationController?.pushViewController(myInvestVC, animated: true)
             }else if indexPath.row == 2{
                 let myAttentionVC = MyAttentionViewController()
+                myAttentionVC.hideBottomBar = true
                 self.navigationController?.pushViewController(myAttentionVC, animated: true)
             }else if indexPath.row == 3{
                 let myChatVC = MyChatViewController()
+                myChatVC.hideBottomBar = true
                 self.navigationController?.pushViewController(myChatVC, animated: true)
             }
         }
