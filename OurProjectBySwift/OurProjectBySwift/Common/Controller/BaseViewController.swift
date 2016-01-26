@@ -109,10 +109,10 @@ class BaseViewController: UIViewController {
     func setupItemWithImageName(normalImageName:String, selectImageName:String, hightImageName:String, action:Selector, leftOrRight:Bool) -> PSBarButtonItem{
         let barItem = PSBarButtonItem(ps_normalImageName: normalImageName, selectedImageName: selectImageName, hightImageName: hightImageName, target: self, action: action)
         if (leftOrRight){
-            navigationController?.navigationItem.leftBarButtonItem = barItem
+            self.navigationItem.leftBarButtonItem = barItem
         }
         else{
-            navigationController?.navigationItem.rightBarButtonItem = barItem
+            self.navigationItem.rightBarButtonItem = barItem
         }
         return barItem
     }
